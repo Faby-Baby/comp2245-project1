@@ -24,9 +24,7 @@ header > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 
 nav li {
     display: inline;
@@ -109,16 +107,25 @@ nav a:hover {
     background-color: #4a5568;
     color: #fff;
     height: 300px;
+    margin-top: 35px;
+}
+
+.testing-desciption {
+    padding-top: 75px;
+    width: 660px;
 }
 
 .testing .btn {
+    display: inline-block;
     float: right;
+    height: 50px;
     color: #fff;
 }
 
 .testing a {
     background-color: #48bb78;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 .stories h2, .stories a {
@@ -149,12 +156,22 @@ nav a:hover {
     background-color: #5a67d8;
     border: none;
     color: #fff;
-    display: inline;
-    position: relative;
-
+    margin-left: 10px;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 footer {
+    padding-top: 10px;
     background-color: #4a5568;
     color: #fff;
+    height: 80px;
+    
 }
